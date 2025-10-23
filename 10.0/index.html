@@ -28,6 +28,25 @@
       height: 100vh;
       flex-direction: column;
     }
+    h1{
+        font-size: 48px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: lightgray;
+      }
+    @media (max-width: 950px)  and (max-height: 950px) {
+      .container{
+        width: 400px;
+        height: 400px;
+        grid-template-columns: repeat(8, 1fr);
+      }
+      .white, .black{
+        height: 50px;
+        width: 50px;
+      }
+      h1{
+        font-size: 24px;
+      }
+    }
     /* Write your code here */
     /* Each square should be 100px by 100px */
     /* My colours for white: #f0d9b5, black: #b58863 */
