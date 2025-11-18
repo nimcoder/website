@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(145deg, #00e5ff 0%, #c19a6b 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* FIX: make gradient cover full screen */
+    min-height: 100vh;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 5rem;
+}
+#game-container{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 20px;
+}
+#dice1, #dice2{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 10px;
+}
+#btn{
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
