@@ -18,6 +18,8 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 #dice1, #dice2{
     width: 20vh;
